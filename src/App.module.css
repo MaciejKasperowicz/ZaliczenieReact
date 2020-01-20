@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Catamaran:400,100,300");
+
+html,
+body {
+  font-family: "Catamaran", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  background-color: #eee;
+  text-align: left;
+}
+
+.container {
+  width: 970px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.headerBig {
+  font-size: 30px;
+  text-transform: uppercase;
+  padding: 15px 0;
+}
+
+.headerSmall {
+  font-size: 22px;
+  text-transform: uppercase;
+  padding: 5px 0;
+}
+
+footer {
+  margin-top: 60px;
+  width: 100%;
+  background-color: #fff;
+  text-align: right;
+  padding: 5px 0;
+}
+
+.product {
+  width: 25%;
+  max-width: 23%;
+  background: white;
+  margin: 1%;
+  text-align: center;
+  flex: 1 0 23%;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.productImg {
+  display: block;
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.productPrice {
+  display: inline-block;
+  font-size: 24px;
+  line-height: 28px;
+  color: #00a1b4;
+  padding: 3px 0px;
+}
